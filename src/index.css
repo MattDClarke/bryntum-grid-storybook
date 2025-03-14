@@ -8,8 +8,8 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  color: #213547;
   background-color: #ffffff;
+  --button-background-opacity: 0;
 }
 
 * {
@@ -26,3 +26,7 @@
   min-height: 500px;
 }
 
+
+.b-button {
+  --button-background-opacity: 0;
+}
